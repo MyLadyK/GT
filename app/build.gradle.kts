@@ -63,6 +63,8 @@ dependencies {
 
     implementation(libs.symbol.processing.api) // Or the latest version
 
+    implementation (libs.threetenabp)
+
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
