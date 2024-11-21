@@ -5,7 +5,6 @@ import androidx.room.Delete
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
-import com.misapps.gestorturnos.model.Turno
 
 @Dao
 interface TurnoDao {
@@ -24,6 +23,6 @@ interface TurnoDao {
 
     // Eliminar un turno
     @Delete
-    suspend fun eliminarTurno(turno: Turno) }
-
+    suspend fun eliminarTurno(turno: Turno)
 }
+

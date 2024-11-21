@@ -7,7 +7,7 @@ import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 
 @Entity(tableName = "turnos")
-data class Turn(
+data class Turno(
     @PrimaryKey(autoGenerate = true) val id: Int = 0, // ID único de cada turno
     val fecha: String, // Fecha del turno en formato "yyyy-MM-dd"
     val tipo: String, // Tipo de turno (mañana, tarde, noche, etc.)
